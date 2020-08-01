@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:layout_marginBottom="572dp"
+        android:gravity="center_horizontal"
+        android:text="Prince Chowk"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginRight="290dp"
+        android:layout_marginBottom="685dp"
+        android:gravity="center_horizontal"
+        android:text="Cmi Chowk"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="464dp"
+        android:gravity="center_horizontal"
+        android:text="Araghar Chowk"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="360dp"
+        android:gravity="center_horizontal"
+        android:text="Dwarka Complex"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="113dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="267dp"
+        android:gravity="center_horizontal"
+        android:text="Cityheart Center"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="101dp"
+        android:gravity="center_horizontal"
+        android:text="DoonHospital Chowk"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="192dp"
+        android:gravity="center_horizontal"
+        android:text="Tehseel Chowk"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="MKPChowk"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/CmiChowk"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="185dp"
+        android:layout_marginRight="185dp"
+        android:layout_marginBottom="683dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+    <Button
+        android:id="@+id/PrinceChowk"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="186dp"
+        android:layout_marginRight="186dp"
+        android:layout_marginBottom="580dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+    <Button
+        android:id="@+id/AragharChowk"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="186dp"
+        android:layout_marginRight="186dp"
+        android:layout_marginBottom="481dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+    <Button
+        android:id="@+id/Dwarka"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="382dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+    <Button
+        android:id="@+id/CityheartCenter"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginRight="187dp"
+        android:layout_marginBottom="284dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+    <Button
+        android:id="@+id/TehsilChowk"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="202dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+    <Button
+        android:id="@+id/DoonHospitalChowk"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginRight="190dp"
+        android:layout_marginBottom="118dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+    <Button
+        android:id="@+id/MKPChowk"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="28dp"
+        android:background="#0b4869"
+        android:drawableBottom="@drawable/ic_location" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">BHOOL TRAFFIC</string>
+    <string name="title_activity_maps">BHOOL TRAFFIC</string>
+    <string name="prompt_email">Email</string>
+        <string name="prompt_password">Password</string>
+        <string name="login">Log In</string>
+        <string name="create_new">New User? Register Here!</string>
+        <string name="not_register">SignIn/LogIn</string>
+        <string name="name">Name</string>
+        <string name="phone_number">Phone Number</string>
+        <string name="register">Register</string>
+        <string name="name_error">Please enter your name</string>
+        <string name="phone_error">Please enter a phone number</string>
+        <string name="email_error">Please enter a email address</string>
+        <string name="error_invalid_email">Email is not valid</string>
+        <string name="password_error">Please enter a password</string>
+        <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string-array name="Chowks">
+        <item>Search for a Chowk!</item>
+        <item>Laxman Chowk</item>
+        <item>Rajeev Chowk</item>
+        <item>Sharanpur</item>
+        <item>Shampur</item>
+        <item>Prince Chowk</item>
+        <item>Clock Tower Chowk</item>
+        <item>Dwarka</item>
+        <item>LakkhiBagh</item>
+        <item>PipalMandi</item>
+        <item>Bhandari</item>
+        <item>Hanuman Chowk</item>
+        <item>Bindal Chowk</item>
+        <item>Tehseel Chowk</item>
+        <item>Railway Station Chowk</item>
+        <item>Motibazaar Chowk</item>
+        <item>CMI Chowk</item>
+        <item>Doon Hospital Chowk</item>
+        <item>Araghar Chowk</item>
+        <item>CityHeart Centre</item>
+        <item>MKP Chowk</item>
+        <item>Buddha Park</item>
+        <item>Darsan Lal Chowk</item>
+        <item>Kanak Chowk</item>
+        <item>Kwality Chowk</item>
+        <item>Lansdowne Chowk</item>
+        <item>Survey Chowk</item>
+        <item>Nanys Bakery Chowk</item>
+        <item>Bhel Chowk</item>
+        <item>Nishvila Chowk</item>
+        <item>Globe Chowk</item>
+        <item>Dilaram Chowk</item>
+        <item>DBS Chowk</item>
+        <item>Karanpur Chowk</item>
+    </string-array>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
