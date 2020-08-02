@@ -3,6 +3,13 @@ from sqlite3 import Error
 import numpy as np
 import io
 import matplotlib.pyplot as plt
+import flask
+import json
+
+app = flask.Flask(__name__)
+@app.route('/stats', methods=['GET', 'POST'])
+def handle_request():
+    return o
 
 def create_connection(db_file):
     """ create a database connection to a SQLite database """
@@ -35,7 +42,18 @@ for i in range(len(a)):
    for j in range(len(a[0])):
        z[j][i] = a[i][j]
      
-z=np.array(z)  
+z=np.array(z) 
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(z,t, test_size = 0.2, random_state = 0)
+
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
+
+
+# Predicting the Test set results
+y_pred =regressor.predict(X_test)
 
 def adapt_array(arr):
     out = io.BytesIO()
@@ -66,3 +84,4 @@ var='''SELECT * FROM HL1'''
 cur.execute(var)
 
 rows = cur.fetchall()
+app.run(host="0.0.0.0", port=5000)
