@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="3"
+    android:background="#080528"
+    android:useDefaultMargins="false"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:rowOrderPreserved="false"
+    tools:context=".AreaActivity">
+
+
+ <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+     android:id="@+id/spinner"
+     android:layout_width="274dp"
+     android:layout_height="36dp"
+     android:layout_marginEnd="56dp"
+     android:layout_marginRight="56dp"
+     android:background="@drawable/styles"
+     android:padding="5dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.2"
+     tools:ignore="MissingClass,MissingConstraints" />
+
+ <Button
+     android:id="@+id/shivajimarg"
+     android:layout_width="102dp"
+     android:layout_height="83dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="140dp"
+     android:layout_marginRight="140dp"
+     android:layout_marginBottom="148dp"
+     android:background="@drawable/styles"
+     android:text="Shivaji Marg"
+     android:textAlignment="inherit"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/jhandamohalla"
+     android:layout_width="112dp"
+     android:layout_height="87dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="264dp"
+     android:layout_marginBottom="292dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:orientation="vertical"
+     android:text="Jhanda Mohalla"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/TilakRoad"
+     android:layout_width="88dp"
+     android:layout_height="82dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="32dp"
+     android:layout_marginRight="32dp"
+     android:layout_marginBottom="148dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:text="Tilak Road"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/Dhamawala"
+     android:layout_width="105dp"
+     android:layout_height="70dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="140dp"
+     android:layout_marginRight="140dp"
+     android:layout_marginBottom="432dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:text="Dhama wala"
+     android:textAlignment="inherit"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/KalikaMandirMarg"
+     android:layout_width="98dp"
+     android:layout_height="93dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="148dp"
+     android:layout_marginBottom="288dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:text="Kalika Mandir Marg"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/MKP"
+     android:layout_width="83dp"
+     android:layout_height="85dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="280dp"
+     android:layout_marginRight="280dp"
+     android:layout_marginBottom="144dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:text="MKP"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/Ghantaghar"
+     android:layout_width="80dp"
+     android:layout_height="70dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="32dp"
+     android:layout_marginRight="32dp"
+     android:layout_marginBottom="432dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:text="Ghanta ghar"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent" />
+
+ <Button
+     android:id="@+id/Bakrawala"
+     android:layout_width="110dp"
+     android:layout_height="70dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="264dp"
+     android:layout_marginBottom="432dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:text="Bakrawala"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent" />
+
+ <Button
+     android:id="@+id/Karanpur"
+     android:layout_width="97dp"
+     android:layout_height="80dp"
+     android:layout_row="1"
+     android:layout_column="0"
+     android:layout_marginEnd="20dp"
+     android:layout_marginBottom="292dp"
+     android:background="@drawable/styles"
+     android:gravity="center"
+     android:text="Karanpur"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="17dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent" />
+
+ <ImageView
+     android:id="@+id/imageView3"
+     android:layout_width="35dp"
+     android:layout_height="35dp"
+     android:background="@drawable/styles"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.122"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.199"
+     app:srcCompat="@drawable/ic_search"
+     tools:ignore="VectorDrawableCompat" />
+
+ <Button
+     android:id="@+id/chart"
+     android:layout_width="60dp"
+     android:layout_height="58dp"
+     android:layout_marginBottom="28dp"
+     android:background="@drawable/ic_baseline_pie_chart_24"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.523"
+     app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
